@@ -8,7 +8,7 @@
         private bool isInPursuit;
         private string plateOfInPursuitVehicle;
         private PoliceStation policeStation;
-        private SpeedRadar speedRadar;
+        private SpeedRadar? speedRadar;
 
         public PoliceCar(string plate, PoliceStation policeStation, SpeedRadar speedRadar) : base(typeOfVehicle, plate)
         {
@@ -77,10 +77,17 @@
 
         public void PrintRadarHistory()
         {
-            Console.WriteLine(WriteMessage("Report radar speed history:"));
-            foreach (float speed in speedRadar.SpeedHistory)
+            if (speedRadar != null)
             {
-                Console.WriteLine(speed);
+                Console.WriteLine(WriteMessage("Report radar speed history:"));
+                foreach (float speed in speedRadar.SpeedHistory)
+                {
+                    Console.WriteLine(speed);
+                }
+            }
+            else 
+            {
+                Console.WriteLine(WriteMessage("Has no active radar"));
             }
         }
 
@@ -88,17 +95,17 @@
         {
             if (isInPursuit)
             {
-                Console.WriteLine(WriteMessage($"Is already in a pursuit of vehicle with plate: {plateOfInPursuitVehicle}");
+                Console.WriteLine(WriteMessage($"Is already in a pursuit of vehicle with plate: {plateOfInPursuitVehicle}"));
             }
             else if (isPatrolling)
             {
                 isInPursuit = true;
                 plateOfInPursuitVehicle = plate;
-                Console.WriteLine(WriteMessage($"In pursuit of vehicle with plate: {plate}");
+                Console.WriteLine(WriteMessage($"In pursuit of vehicle with plate: {plate}"));
             }
             else 
             {
-                Console.WriteLine(WriteMessage("Is not patrolling");
+                Console.WriteLine(WriteMessage("Is not patrolling"));
             }
         }
 
@@ -106,21 +113,21 @@
         {
             if (!isPatrolling)
             {
-                Console.WriteLine(WriteMessage("Was not patrolling");
+                Console.WriteLine(WriteMessage("Was not patrolling"));
             }
             else if (!isInPursuit)
             {
-                Console.WriteLine(WriteMessage("Was not in a pursuit");
+                Console.WriteLine(WriteMessage("Was not in a pursuit"));
             }
             else if (plate != plateOfInPursuitVehicle)
             {
-                Console.WriteLine(WriteMessage($"Was not in a pursuit with vehicle with plate {plate}");
+                Console.WriteLine(WriteMessage($"Was not in a pursuit with vehicle with plate {plate}"));
             }
             else
             {
                 isInPursuit = false;
                 plateOfInPursuitVehicle = "";
-                Console.WriteLine(WriteMessage($"Endded it's pursuit");
+                Console.WriteLine(WriteMessage($"Endded it's pursuit"));
             }
 
         }
