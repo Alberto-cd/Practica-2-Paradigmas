@@ -1,0 +1,15 @@
+C:\Users\avela\Documents\IMAT\1º IMAT\Programación\Repositorio GitHub\Practica-2-Paradigmas\bin\Debug\net8.0\Practice1.exe
+C:\Users\avela\Documents\IMAT\1º IMAT\Programación\Repositorio GitHub\Practica-2-Paradigmas\bin\Debug\net8.0\Practice1.deps.json
+C:\Users\avela\Documents\IMAT\1º IMAT\Programación\Repositorio GitHub\Practica-2-Paradigmas\bin\Debug\net8.0\Practice1.runtimeconfig.json
+C:\Users\avela\Documents\IMAT\1º IMAT\Programación\Repositorio GitHub\Practica-2-Paradigmas\bin\Debug\net8.0\Practice1.dll
+C:\Users\avela\Documents\IMAT\1º IMAT\Programación\Repositorio GitHub\Practica-2-Paradigmas\bin\Debug\net8.0\Practice1.pdb
+C:\Users\avela\Documents\IMAT\1º IMAT\Programación\Repositorio GitHub\Practica-2-Paradigmas\obj\Debug\net8.0\Practice1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\avela\Documents\IMAT\1º IMAT\Programación\Repositorio GitHub\Practica-2-Paradigmas\obj\Debug\net8.0\Practice1.AssemblyInfoInputs.cache
+C:\Users\avela\Documents\IMAT\1º IMAT\Programación\Repositorio GitHub\Practica-2-Paradigmas\obj\Debug\net8.0\Practice1.AssemblyInfo.cs
+C:\Users\avela\Documents\IMAT\1º IMAT\Programación\Repositorio GitHub\Practica-2-Paradigmas\obj\Debug\net8.0\Practice1.csproj.CoreCompileInputs.cache
+C:\Users\avela\Documents\IMAT\1º IMAT\Programación\Repositorio GitHub\Practica-2-Paradigmas\obj\Debug\net8.0\Practice1.sourcelink.json
+C:\Users\avela\Documents\IMAT\1º IMAT\Programación\Repositorio GitHub\Practica-2-Paradigmas\obj\Debug\net8.0\Practice1.dll
+C:\Users\avela\Documents\IMAT\1º IMAT\Programación\Repositorio GitHub\Practica-2-Paradigmas\obj\Debug\net8.0\refint\Practice1.dll
+C:\Users\avela\Documents\IMAT\1º IMAT\Programación\Repositorio GitHub\Practica-2-Paradigmas\obj\Debug\net8.0\Practice1.pdb
+C:\Users\avela\Documents\IMAT\1º IMAT\Programación\Repositorio GitHub\Practica-2-Paradigmas\obj\Debug\net8.0\Practice1.genruntimeconfig.cache
+C:\Users\avela\Documents\IMAT\1º IMAT\Programación\Repositorio GitHub\Practica-2-Paradigmas\obj\Debug\net8.0\ref\Practice1.dll

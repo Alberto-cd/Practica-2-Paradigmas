@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\avela\\Documents\\IMAT\\1\u00BA IMAT\\Programaci\u00F3n\\Repositorio GitHub\\Practica-2-Paradigmas\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|c:\\users\\avela\\documents\\imat\\1\u00BA imat\\programaci\u00F3n\\repositorio github\\practica-2-paradigmas\\policecar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|solutionrelative:policecar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|c:\\users\\avela\\documents\\imat\\1\u00BA imat\\programaci\u00F3n\\repositorio github\\practica-2-paradigmas\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|solutionrelative:main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|c:\\users\\avela\\documents\\imat\\1\u00BA imat\\programaci\u00F3n\\repositorio github\\practica-2-paradigmas\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|solutionrelative:city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|c:\\users\\avela\\documents\\imat\\1\u00BA imat\\programaci\u00F3n\\repositorio github\\practica-2-paradigmas\\policestation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|solutionrelative:policestation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|c:\\users\\avela\\documents\\imat\\1\u00BA imat\\programaci\u00F3n\\repositorio github\\practica-2-paradigmas\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|solutionrelative:vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|c:\\users\\avela\\documents\\imat\\1\u00BA imat\\programaci\u00F3n\\repositorio github\\practica-2-paradigmas\\speedradar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|solutionrelative:speedradar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "City.cs",
+              "DocumentMoniker": "C:\\Users\\avela\\Documents\\IMAT\\1\u00BA IMAT\\Programaci\u00F3n\\Repositorio GitHub\\Practica-2-Paradigmas\\City.cs",
+              "RelativeDocumentMoniker": "City.cs",
+              "ToolTip": "C:\\Users\\avela\\Documents\\IMAT\\1\u00BA IMAT\\Programaci\u00F3n\\Repositorio GitHub\\Practica-2-Paradigmas\\City.cs",
+              "RelativeToolTip": "City.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAA1wBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T09:19:29.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SpeedRadar.cs",
+              "DocumentMoniker": "C:\\Users\\avela\\Documents\\IMAT\\1\u00BA IMAT\\Programaci\u00F3n\\Repositorio GitHub\\Practica-2-Paradigmas\\SpeedRadar.cs",
+              "RelativeDocumentMoniker": "SpeedRadar.cs",
+              "ToolTip": "C:\\Users\\avela\\Documents\\IMAT\\1\u00BA IMAT\\Programaci\u00F3n\\Repositorio GitHub\\Practica-2-Paradigmas\\SpeedRadar.cs",
+              "RelativeToolTip": "SpeedRadar.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T09:22:20.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Vehicle.cs",
+              "DocumentMoniker": "C:\\Users\\avela\\Documents\\IMAT\\1\u00BA IMAT\\Programaci\u00F3n\\Repositorio GitHub\\Practica-2-Paradigmas\\Vehicle.cs",
+              "RelativeDocumentMoniker": "Vehicle.cs",
+              "ToolTip": "C:\\Users\\avela\\Documents\\IMAT\\1\u00BA IMAT\\Programaci\u00F3n\\Repositorio GitHub\\Practica-2-Paradigmas\\Vehicle.cs",
+              "RelativeToolTip": "Vehicle.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAgwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T09:28:20.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PoliceStation.cs",
+              "DocumentMoniker": "C:\\Users\\avela\\Documents\\IMAT\\1\u00BA IMAT\\Programaci\u00F3n\\Repositorio GitHub\\Practica-2-Paradigmas\\PoliceStation.cs",
+              "RelativeDocumentMoniker": "PoliceStation.cs",
+              "ToolTip": "C:\\Users\\avela\\Documents\\IMAT\\1\u00BA IMAT\\Programaci\u00F3n\\Repositorio GitHub\\Practica-2-Paradigmas\\PoliceStation.cs",
+              "RelativeToolTip": "PoliceStation.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T09:07:15.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PoliceCar.cs",
+              "DocumentMoniker": "C:\\Users\\avela\\Documents\\IMAT\\1\u00BA IMAT\\Programaci\u00F3n\\Repositorio GitHub\\Practica-2-Paradigmas\\PoliceCar.cs",
+              "RelativeDocumentMoniker": "PoliceCar.cs",
+              "ToolTip": "C:\\Users\\avela\\Documents\\IMAT\\1\u00BA IMAT\\Programaci\u00F3n\\Repositorio GitHub\\Practica-2-Paradigmas\\PoliceCar.cs",
+              "RelativeToolTip": "PoliceCar.cs",
+              "ViewState": "AgIAAG0AAAAAAAAAAADwv3oAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T09:06:46.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Main.cs",
+              "DocumentMoniker": "C:\\Users\\avela\\Documents\\IMAT\\1\u00BA IMAT\\Programaci\u00F3n\\Repositorio GitHub\\Practica-2-Paradigmas\\Main.cs",
+              "RelativeDocumentMoniker": "Main.cs",
+              "ToolTip": "C:\\Users\\avela\\Documents\\IMAT\\1\u00BA IMAT\\Programaci\u00F3n\\Repositorio GitHub\\Practica-2-Paradigmas\\Main.cs",
+              "RelativeToolTip": "Main.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T09:06:21.686Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
