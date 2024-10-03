@@ -10,22 +10,13 @@
         private PoliceStation policeStation;
         private SpeedRadar? speedRadar;
 
-        public PoliceCar(string plate, PoliceStation policeStation, SpeedRadar speedRadar) : base(typeOfVehicle, plate)
+        public PoliceCar(string plate, PoliceStation policeStation, SpeedRadar? speedRadar = null) : base(typeOfVehicle, plate)
         {
             isPatrolling = false;
             isInPursuit = false;
             plateOfInPursuitVehicle = "";
             this.policeStation = policeStation;
             this.speedRadar = speedRadar;
-        }
-
-        public PoliceCar(string plate, PoliceStation policeStation) : base(typeOfVehicle, plate)
-        {
-            isPatrolling = false;
-            isInPursuit = false;
-            plateOfInPursuitVehicle = "";
-            this.policeStation = policeStation;
-            this.speedRadar = null;
         }
 
         public void UseRadar(Vehicle vehicle)
