@@ -33,7 +33,7 @@ namespace Practice1
 
         public string WriteMessage(string message)
         {
-            return $"Police station:  {message}";
+            return $"Police station: {message}";
         }
     }
 }
