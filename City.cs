@@ -23,7 +23,7 @@ namespace Practice1
 
         public string WriteMessage(string message)
         {
-            return $"City:  {message}";
+            return $"City: {message}";
         }
     }
 }
