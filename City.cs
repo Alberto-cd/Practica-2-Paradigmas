@@ -9,14 +9,16 @@ namespace Practice1
             TaxiLicenses = new List<string>();
         }
 
-        public addTaxiLicense(string license)
+        public void addTaxiLicense(string plate)
         {
-            TaxiLicenses.Add(license);
+            TaxiLicenses.Add(plate);
+            Console.WriteLine(WriteMessage($"Added taxi license: {plate}"));
         }
 
-        public removeTaxiLicense(string license)
+        public void removeTaxiLicense(string plate)
         {
-            TaxiLicenses.Remove(license);
+            TaxiLicenses.Remove(plate);
+            Console.WriteLine(WriteMessage($"Removed taxi license: {plate}"));
         }
 
         public string WriteMessage(string message)
