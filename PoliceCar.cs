@@ -5,17 +5,32 @@
         //constant string as TypeOfVehicle wont change allong PoliceCar instances
         private const string typeOfVehicle = "Police Car"; 
         private bool isPatrolling;
+        private bool isInPursuit;
+        private string plateOfInPursuitVehicle;
+        private PoliceStation policeStation;
         private SpeedRadar speedRadar;
 
-        public PoliceCar(string plate) : base(typeOfVehicle, plate)
+        public PoliceCar(string plate, PoliceStation policeStation, SpeedRadar speedRadar) : base(typeOfVehicle, plate)
         {
             isPatrolling = false;
-            speedRadar = new SpeedRadar();
+            isInPursuit = false;
+            plateOfInPursuitVehicle = "";
+            this.policeStation = policeStation;
+            this.speedRadar = speedRadar;
+        }
+
+        public PoliceCar(string plate, PoliceStation policeStation) : base(typeOfVehicle, plate)
+        {
+            isPatrolling = false;
+            isInPursuit = false;
+            plateOfInPursuitVehicle = "";
+            this.policeStation = policeStation;
+            this.speedRadar = null;
         }
 
         public void UseRadar(Vehicle vehicle)
         {
-            if (isPatrolling)
+            if (isPatrolling && speedRadar != null)
             {
                 speedRadar.TriggerRadar(vehicle);
                 string meassurement = speedRadar.GetLastReading();
@@ -50,6 +65,8 @@
             if (isPatrolling)
             {
                 isPatrolling = false;
+                isInPursuit = false;
+                plateOfInPursuitVehicle = "";
                 Console.WriteLine(WriteMessage("stopped patrolling."));
             }
             else
@@ -65,6 +82,52 @@
             {
                 Console.WriteLine(speed);
             }
+        }
+
+        public void StartPursuit(string plate)
+        {
+            if (isInPursuit)
+            {
+                Console.WriteLine(WriteMessage($"Is already in a pursuit of vehicle with plate: {plateOfInPursuitVehicle}");
+            }
+            else if (isPatrolling)
+            {
+                isInPursuit = true;
+                plateOfInPursuitVehicle = plate;
+                Console.WriteLine(WriteMessage($"In pursuit of vehicle with plate: {plate}");
+            }
+            else 
+            {
+                Console.WriteLine(WriteMessage("Is not patrolling");
+            }
+        }
+
+        public void EndPursuit(string plate) 
+        {
+            if (!isPatrolling)
+            {
+                Console.WriteLine(WriteMessage("Was not patrolling");
+            }
+            else if (!isInPursuit)
+            {
+                Console.WriteLine(WriteMessage("Was not in a pursuit");
+            }
+            else if (plate != plateOfInPursuitVehicle)
+            {
+                Console.WriteLine(WriteMessage($"Was not in a pursuit with vehicle with plate {plate}");
+            }
+            else
+            {
+                isInPursuit = false;
+                plateOfInPursuitVehicle = "";
+                Console.WriteLine(WriteMessage($"Endded it's pursuit");
+            }
+
+        }
+
+        public void SendAlarm(string plate)
+        {
+            policeStation.InitiatePursuit(plate);
         }
     }
 }
