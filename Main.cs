@@ -62,7 +62,6 @@
             policeCar1.PrintRadarHistory();
             policeCar2.PrintRadarHistory();
             policeCar3.PrintRadarHistory();
-
         }
     }
 }
