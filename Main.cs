@@ -25,8 +25,8 @@
             Console.WriteLine(policeCar2.WriteMessage("Created"));
             Console.WriteLine(policeCar3.WriteMessage("Created"));
 
-            city.addTaxiLicense(taxi1.GetPlate());
-            city.addTaxiLicense(taxi2.GetPlate());
+            city.AddTaxiLicense(taxi1.GetPlate());
+            city.AddTaxiLicense(taxi2.GetPlate());
 
             policeStation.AddPoliceCar(policeCar1);
             policeStation.AddPoliceCar(policeCar2);
@@ -44,7 +44,7 @@
             taxi2.StopRide();
             policeCar2.EndPatrolling();
             policeCar1.EndPursuit(taxi2.GetPlate());
-            city.removeTaxiLicense(taxi2.GetPlate());
+            city.RemoveTaxiLicense(taxi2.GetPlate());
 
             policeCar3.StartPatrolling();
 
@@ -57,6 +57,7 @@
             taxi1.StopRide();
             policeCar1.EndPatrolling();
             policeCar3.EndPatrolling();
+            city.RemoveTaxiLicense(taxi1.GetPlate());
 
             policeCar1.PrintRadarHistory();
             policeCar2.PrintRadarHistory();
